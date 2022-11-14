@@ -1,0 +1,3 @@
+[submodule "base/arcsi"]
+	path = base/arcsi
+	url = git@github.com:samfranklin/arcsi.git
