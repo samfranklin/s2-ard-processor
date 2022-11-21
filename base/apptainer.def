@@ -7,6 +7,5 @@ From: petebunting/au-eoed:20220904
 
 # patch latlon and arcsimpi fixes into arcsi v4 apptainer image
 %files
-    /home/azureuser/repos/s2-ard-processor-samfranklin/base/arcsi/arcsilib/arcsisensor.py /opt/miniconda/lib/python3.10/site-packages/arcsilib/arcsisensor.py
     /home/azureuser/repos/s2-ard-processor-samfranklin/base/arcsi/bin/arcsimpi.py /opt/miniconda/bin/arcsimpi.py
     /home/azureuser/repos/s2-ard-processor-samfranklin/base/arcsi/bin/arcsibuildmultifilelists.py /opt/miniconda/bin/arcsibuildmultifilelists.py
