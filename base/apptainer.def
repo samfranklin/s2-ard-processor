@@ -3,7 +3,7 @@ From: petebunting/au-eoed:20220904
 
 # fix missing arcsi dependancy
 %post
-    conda install --channel conda-forge mpi4py=3.1.4 --yes
+    /opt/miniconda/bin/conda install --channel conda-forge mpi4py=3.1.4 openmpi=4.1.4 --yes
 
 # patch latlon and arcsimpi fixes into arcsi v4 apptainer image
 %files
